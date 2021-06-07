@@ -27,8 +27,8 @@ class Login extends React.Component {
     }
         handleSubmit =(event)=>{
 
-            alert("Username:"+this.state.username)
-            alert("password:"+this.state.password)
+            // alert("Username:"+this.state.username)
+            // alert("password:"+this.state.password)
 
         }
         
@@ -38,7 +38,7 @@ class Login extends React.Component {
 
         return <div className="login">
 
-            <h1>Login</h1>
+            <h1>Login Class</h1>
             <h2>Username:{this.state.username}</h2>
             <h2>password:{this.state.password}</h2>
             <form onSubmit ={this.handleSubmit}>

@@ -46,9 +46,9 @@ class Bankapplogin extends React.Component {
 
             <h1>Welcome to Federal Bank</h1>
 
-            {/* <h2>Username:{this.state.username}</h2> */}
-                {/* <h2>password:{this.state.password}</h2> */}
-            
+            {/* <h2>Username:{this.state.username}</h2> 
+             <h2>password:{this.state.password}</h2> */}
+             
 
 
             <div class="mb-3"> 
